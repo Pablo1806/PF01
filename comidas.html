@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Odin Park/Comidas</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="grid/grid2.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/jatracciones (1).css">
+    <link rel="stylesheet" href="css/jatracciones2.css">   
+    <link rel="stylesheet" href="css/nestilos.css">
+    <link rel="stylesheet" href="css/pformulario.css">
+    <script src="js/pagos.js"></script>
+    <script src="js/atracciones.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+        <div class="wrapper">
+<!-- monedas girando -->
+<div class="opacity"></div>
+                
+<div class="opacity2"></div>
+<div class="logo"> <div class="sublogo"> <img src="img/odinpark.png" alt="logo odinpark" title="Odin park">
+   <div class="rojo"></div>
+<div class="rojo1"></div></div>  
+</div>
+<div class="pasaporte">
+        <div class="tik1">
+                <img id="jmod1" src="img/Ticket1.png">  <p>Tennant Look</p> 
+                <div class="contmensa1">
+                    <span class="pos1 icon-up-dir"></span> <div class="mensaje1"> <p> Acompaña a tu Guerrero</p>
+                   
+                      
+            </div>
+            </div>
+         </div>
+         <div class="tik2">  <img id="jmod2" src="img/tiket2.png" width="100px" height="100px" alt=""> <p>Kids Adventure</p>
+            <div class="contmensa2">
+                    <span class=" pos2 icon-up-dir"></span> <div class="mensaje2"> <p> Empieza tu Aventura </p>
+                   
+                    </div>    
+                
+                </div>
+            </div>
+            <div class="tik3"> 
+                    <img id="jmod3" src="img/tiket3.png" width="100px" height="100px"  alt=""> <p>Thor Travel</p> 
+                    <div class="contmensa3">
+                        <span class=" pos3 icon-up-dir"></span> <div class="mensaje3"> <p> Conviertete en Heroe </p>
+                       
+                        </div>     
+                </div>
+                </div>
+                <div class="tik4">  
+                        <img id="jmod4" src="img/tiket4.png" width="100px" height="100px" alt=""><p>Odin´s Experience</p>
+                        <div class="contmensa4">
+                           <span class=" pos4 icon-up-dir"></span> <div class="mensaje4"> <p> Domina el Arbol del Mundo </p>
+                          
+                           </div>   
+                        </div>   
+                    </div> 
+            </div>
+
+
+                        
+
+                    
+                    <div class="contpago" id="emer">
+                         <div class="fformulario" id="emer">
+                            <div id="cerrar"> <a href="javascript:cerrar()">
+                                <img src="img/cerrar.png" width="22px" height="22px" alt=""> </a>
+                
+                            </div>
+                            <form >
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" placeholder="escribe tu nombre">
+                                
+                                <label for="telefono">Teléfono:</label>
+                                <input type="tel" id="telefono" placeholder="ingresa un numero telefonico">
+                        
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" placeholder="ingresa tu e-mail">
+                        
+                                <label for="pago con tarjeta de credito">Tarjeta de Crédito</label>
+                                <input type="checkbox" id="checkbox" >
+                                
+                                <label for="pago con tarjeta Debito">Tarjeta Débito</label>
+                                <input type="checkbox" id="checkbox" >
+
+                               
+                                        <!-- Lista de selección -->
+                                        Seleccione su banco:
+                                        <select name="combo">
+                                          <!-- Opciones de la lista -->
+                                          <a href=""><option value="Bancolombia">Bancolombia</option></a>
+                                          <a href=""><option value="Banco Caja Social" selected>Banco Caja Social</option></a> 
+                                          <a href=""><option value="Banco de Bogota">Banco de Bogota</option></a>
+                                          <a href=""><option value="Banco av villas">Banco av villas</option></a>
+                                          <a href=""><option value="Banco BBVA Colombia">Banco BBVA Colombia</option></a>
+                                          <a href=""><option value="Banco Colpatria">Banco Colpatria</option></a>
+                                          <a href=""><option value="Banco Davivienda">Banco Davivienda</option></a>
+                                          <a href=""><option value="Banco de Occidente">Banco de Occidente</option></a>
+                                        </select>
+                                      
+                                        <img id="pag" src="img/Tarjetas.png"  alt="">
+                                
+                                 
+                        
+                                <button> Pagar</button>
+                            </form>
+                        </div>
+                     </div>
+                       
+                <diV class="mapa">
+                        <div class="titulo_tienda">Comidas y Bebidas</div>
+                    <section class="tienda_conten" >
+                        <div class="producto">
+                            <img src="img/food5.jpg" alt="" width="">
+                         <p class="pbajar">Fiskibollur</p> <p>Precio:$30.000</p>  <a href="javascript:abrir()"class="icon-grocery-store" >  Comprar</a> <label for="">Cantidad : <input type="number" placeholder="0"></label>
+                        </div>
+                        <div class="producto">
+                                <img src="img/food6.jpg" alt="" >
+                                <p class="pbajar">Albóndigas de Pescado</p> <p>Precio:$15.000</p>  <a href="javascript:abrir()" class="icon-grocery-store" >  Comprar</a><label for="">Cantidad : <input type="number" placeholder="0"></label>
+                            </div>
+                            <div class="producto">
+                                    <img src="img/food7.jpg" alt="">
+                                    <p class="pbajar">Lutefisk</p> <p>Precio:$10.000</p>  <a href="javascript:abrir()" class="icon-grocery-store" >  Comprar</a><label for="">Cantidad : <input type="number" placeholder="0"></label>
+                                </div>
+                                <div class="producto">
+                                        <img src="img/bebida.jpg" alt="">
+                                        <p class="pbajar">Cerveza Bjorr</p> <p>Precio:$9.000</p>  <a href="javascript:abrir()" class="icon-grocery-store">  Comprar</a><label for="">Cantidad : <input type="number" placeholder="0"></label>
+                                    </div>
+                                    <div class="producto">
+                                            <img src="img/beer.jpg" alt="">
+                                            <p class="pbajar">Cervea Norvic</p> <p>Precio:$10.000</p>  <a href="javascript:abrir()"class="icon-grocery-store" >   Comprar</a><label for="">Cantidad : <input type="number" placeholder="0"></label>
+                                        </div>
+                                        <div class="producto">
+                                                <img id=ambrosia src="img/beerambrosia.png" alt="">
+                                                <p class="pbajar">Cerveza OdinPark</p> <p>Precio:$15.000</p>  <a href="javascript:abrir()" class="icon-grocery-store" >  Comprar</a><label for=""> Cantidad : <input type="number" placeholder="0"></label>
+                                            </div>
+                                            <div class="producto">
+                                                    <img src="img/food1.jpg" alt="">
+                                                    <p class="pbajar">Picado de Carne al Estilo Nórdico</p> <p>Precio:$40.000</p>  <a href="javascript:abrir()"class="icon-grocery-store" > Comprar</a><label for="">Cantidad : <input type="number" placeholder="0"></label>
+                                                </div>
+                                                <div class="producto">
+                                                        <img src="img/food2.jpg" alt="">
+                                                        <p class="pbajar">Bufe de Huevo </p> <p>Precio:$20.000</p>  <a href="javascript:abrir()" class="icon-grocery-store" > Comprar</a><label for="">Cantidad : <input type="number" placeholder="0"></label>
+                                                    </div>
+                                                    <div class="producto">
+                                                            <img src="img/food3.jpg" alt="">
+                                                            <p class="pbajar">Ensalada Dulce Dietetica</p> <p>Precio:$10.000</p>  <a href="javascript:abrir()" class="icon-grocery-store">  Comprar</a><label for="">Cantidad : <input type="number" placeholder="0"></label>
+                                                        </div>   
+                    </section>
+
+                </div>
+
+                <!-- menu atracciones -->
+                <div class="thor" id="jatr1">
+                        <div id="cerrar1"> <a href="javascript:pcerrar()">
+                                <img src="img/cerrar.png" width="22px" height="22px" alt=""> </a>
+                        </div>
+                        <div class="elemento1"><iframe width="90%" height="100%" src="https://www.youtube.com/embed/3yum32fSWVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mutet></iframe></div>
+                        <div class="elemento ">  <h2>Mjolnir (el martillo )</h2><br><hr><br><br>
+                
+                        <p>“Sólo los dignos son capaces de levantarlo,<br> 
+                            ¿Te atreves a igualar tu fuerza con el Dios<br> 
+                            del trueno?”</p><br><br>
+                         <p>Descripcion:<br><br>
+                            Con este juego probaras tu fuerza, de acuerdo <br>
+                            a la edad podras usar el martillo y ganara quien <br>
+                            logre separarlo del piso.</p><br><br>
+                      
+                         <p>Especificaciones:<br><br>
+                            Edad : Mayores de 6 años<br>
+                            Estatura : Sin Restricción<br>
+                            NO apto para mujeres en estado de Embarazo.</p><br><br>
+             
+                <p>Tickets de acceso:</p>
+                <div class="jmonedas2">
+                   <div class="jmonedas1 ticket2"><img id="t2"src="img/ticket2.png" > <p>Kids <br> Adventure</p></div>
+                  
+                   <div class="jmonedas1 ticket3"><img id="t3"src="img/ticket3.png" ><p>Thor <br>Travel</p></div>
+                  
+                   <div class="jmonedas1 ticket4"><img id="t4"src="img/ticket4.png" > <p>Odin´s <br> Experience</p></div>
+                  
+                </div>
+                </div>
+                </div>
+        
+                <div class="Valkyrja" id="jatr2">
+                        <div id="cerrar1"> <a href="javascript:pcerrar1()">
+                                <img src="img/cerrar.png" width="22px" height="22px" alt=""> </a>
+                        </div>
+                        <div class="elemento"><h2>Valkyrja (Carroza con Lobos)</h2><br><hr><br><br>
+                            <p>“Llevan guerreros en Lobo al Valhalla,<br>
+                               Donde se convierten en Einherjer Y luchan <br> 
+                               en el Ragnarök,<br>
+                               ¿Eres lo suficientemente heroico como para subir ? ”</p><br>
+                            <p>Descripcion:<br><br>
+                               En este juego probaras tu destreza, el que se mantenga <br> 
+                               mas tiempo encima del lobo sin caerse, gana.</p><br>
+                            <p>Especificaciones:<br><br>
+                               Edad :Sin Restricción<br>
+                               Estatura : Sin Restricción<br>
+                               Excepcion : NO apto para mujeres en estado de Embarazo.</p><br><br>
+                        <p>Tickets de acceso:</p><br>
+                        <div class="jmonedas2">
+                            <div><img id="t2"src="img/ticket2.png"><p>Kids <br> Adventure</p></div>
+                            <div><img id="t3"src="img/ticket3.png"><p>thor <br> Travel</p></div>
+                            <div><img id="t4"src="img/ticket4.png"><p> Odin´s <br> Experience </p></div>
+                        </div>
+                        <div class="elemento2"><iframe width="90%" height="100%"  src="media/gusanito.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        </div>
+                        </div>     
+                            
+        <div class="lobo" id="jatr3">
+                <div id="cerrar1"> <a href="javascript:pcerrar2()">
+                        <img src="img/cerrar.png" width="22px" height="22px" alt=""> </a>
+                </div>
+                <div class="elemento"> <h2>Fenrir (Lobo Mecanico)</h2><br><hr><br><br>
+                   <p>“A pesar de estar encadenado con Gleipnir,<br>
+                      logró quitar la mano al Dios Tyr ¿Serás capaz <br>
+                      de domar la bestia?”<br>
+                   <p>Descripcion:<br><br>
+                      En este juego probaras tu destreza, el que se <br> 
+                      mantenga mas tiempo encima del lobo sin caerse, gana.</p><br>
+                        <p> Especificaciones: <br><br>
+                            Edad : Mayores de 6 años <br>
+                            Estatura : 145 cms <br>
+                            Excepcion : NO apto para mujeres en estado de Embarazo.</p><br><br>
+                        <p>Tickets de acceso:</p><br>
+                        <div class="jmonedas2">
+                            <div><img id="t3"src="img/ticket3.png"><p>thor <br> Travel</p></div>
+                            <div><img id="t4"src="img/ticket4.png"><p> Odin´s <br> Experience </p></div>
+                        </div>
+                        <div class="elemento2"><iframe width="100%" height="90%" src="media/toromecanico.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    </div>
+                    </div>
+        
+                    <div class="skycoaster" id="jatr4">
+                            <div id="cerrar1"> <a href="javascript:pcerrar3()">
+                                    <img src="img/cerrar.png" width="22px" height="22px" alt=""> </a>
+                            </div>
+                            <div class="elemento"><h2>Caida a Múspellsheimr (Skycoaster)</h2><br><hr><br><br>
+                               <p>“Hogar de los gigantes de fuego, se cree <br> 
+                                que en el Ragnarök saldrán de ahí Surt y sus gigantes <br> 
+                                a arrasar todo y destruir el Bifrost ¿podrás ir y volver <br> 
+                                a salvo?”</p><br>
+                        <p>Descripcion:<br><br>
+                                En este juego se pondra a prueba tu adrenalina, <br> 
+                                que tal eres para las alturas, se te lanzara de un  <br> 
+                                lugar muy alto al vacio,podras resistirlo</p><br><br>
+                        <p>Especificaciones:<br><br>
+                        
+                        Edad : Mayores de 12 años<br>
+                        Estatura : 145 cms<br>
+                        Excepcion :  NO apto para mujeres en estado de Embarazo.<br> </p>
+                        <p>Tickets de acceso:</p><br><br>
+                        <div class="jmonedas2">
+                          
+                            <div><img id="t2"src="img/ticket2.png"><p>Kids <br> Adventure</p></div>
+                            <div><img id="t3"src="img/ticket3.png"><p>thor <br> Travel</p></div>
+                            <div><img id="t4"src="img/ticket4.png"><p> Odin´s <br> Experience </p></div>
+                        </div>
+                        
+                        <div class="elemento2"><iframe width="90%" height="100%" src="media/Skycoaster.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        </div>
+                        </div>
+                    
+                        <div class="montaña" id="jatr5">
+                                <div id="cerrar1"> <a href="javascript:pcerrar4()">
+                                        <img src="img/cerrar.png" width="22px" height="22px" alt=""> </a>
+                                </div>
+                            <div class="elemento"><h2>Bifrost (Montaña Rusa)</h2><br><hr><br><br>
+                         <p>“Une el mundo de los hombres con el Reino de los dioses. <br> 
+                            Súbete y viaja de Midgard a Asgard,<br>
+                            pero cuidado, si no cumples los requisitos genial no te <br> 
+                            dejara pasar ”<p></br><br>
+                         <p>Descripcion:<br><br>
+                            El Bifrost, la mas temida montaña rusa, tus pelos y tus <br>
+                            nervios se pondran de punta.</p><br><br>
+                           <p>  Especificaciones:<br><br>
+                        
+                            Edad : Mayores de 18 años<br>
+                            Estatura : Sin Restricción<br>
+                            Excepcion : NO apto para mujeres en estado de Embarazo.</p><br>
+                        
+                             <p>Tickets de acceso:</p><br><br>
+                             <div class="jmonedas2">
+                         
+                                <div><img id="t3"src="img/ticket3.png"><p>thor <br> Travel</p></div>
+                                <div><img id="t4"src="img/ticket4.png"><p> Odin´s <br> Experience </p></div>
+                            </div>
+                            </div>
+                            <div class="elemento1"><iframe width="90%" height="100%" src="media/montaña.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            </div>
+                        
+                         <div class="tronquitos" id="jatr6">
+                                <div id="cerrar1"> <a href="javascript:pcerrar5()">
+                                        <img src="img/cerrar.png" width="22px" height="22px" alt=""> </a>
+                                </div>
+                                <div class="elemento"> <h2>Drakkar (Tronquitos)</h2><br><hr><br><br>
+                         <p>“Súbete en esta impresionante aventura, surcar los 7 <br> 
+                            mares en estas embarcaciones.”</p><br>
+                         <p>Descripcion:<br>
+                            Conoce las embarcaciones nordicas, y surca los 7 mares.</p><br><br>
+                           <p> Especificaciones:<br><br>
+                        
+                            Edad : Todos<br>
+                            Estatura : 90 cms<br>
+                            Excepcion : NO apto para mujeres en estado de Embarazo. </p><br><br>
+                            <p>Tickets de acceso:</p><br><br>
+                            <div class="jmonedas2">
+                                <div><img id="t2"src="img/ticket2.png"><p>Kids <br> Adventure</p></div>
+                                <div><img id="t3"src="img/ticket3.png"><p>thor <br> Travel</p></div>
+                                <div><img id="t4"src="img/ticket4.png"><p> Odin´s <br> Experience </p></div>
+                            </div>
+                            <div class="elemento2"><iframe width="90%" height="100%" src="media/tronquitos.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                         </div>
+                        </div>
+                        
+                        
+                            <div class="serpiente" id="jatr7">
+                                    <div id="cerrar1"> <a href="javascript:pcerrar6()">
+                                            <img src="img/cerrar.png" width="22px" height="22px" alt=""> </a>
+                                    </div>
+                             <div class="elemento"> <h2>Jörmundgander (Serpiente)</h2><hr><br>
+                     <p>“La cinta del mundo. esta serpiente mordiéndose la cola <br> 
+                        abraza toda la tierra.<br>
+                        vive en el mar y ronda todo Midgard ¿Podrás resistir sus <br> 
+                        giros a alta velocidad? ”</p><br><br>
+                         <p>Descripcion:<br><br>
+                        En esta atraccion pondras a prueba tu resistencia, podras <br> 
+                        aguantar tanta velocidad?</p><br><br>
+                        <p>Especificaciones:<br><br>
+                        
+                        Edad : Todos<br>
+                        Estatura : Sin Restricción<br>
+                        Excepcion :NO apto para mujeres en estado de Embarazo.</p> <br><br>
+                        
+                        <p>Tickets de acceso:</p><br><br>
+                        <div class="jmonedas2">
+                            <div><img id="t2"src="img/ticket2.png"><p>Kids <br> Adventure</p></div>
+                            <div><img id="t3"src="img/ticket3.png"><p>thor <br> Travel</p></div>
+                            <div><img id="t4"src="img/ticket4.png"><p> Odin´s <br> Experience </p></div>
+                        
+                        </div>
+                        <div class="elemento2"><iframe width="90%" height="100%" src="media/TAGADA.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><br> 
+                        </div>
+                        </div>
+                        
+        
+                         <div class="carrusel" id="jatr8">
+                                <div id="cerrar1"> <a href="javascript:pcerrar7()">
+                                        <img src="img/cerrar.png" width="22px" height="22px" alt=""> </a>
+                                </div>
+                        <div class="elemento"><h2>Valhalla (Carrusel)</h2><br><hr><br>
+                         <p>Siendo el símbolo de bienvenida a los guerreros <br> 
+                            caídos dado por el mismo Odín. móntate en el carrusel <br> 
+                            y sé bienvenido cómo héroe al Valhalla”</p><br><br>
+                         <p>Descripcion:<br><br>
+                            Despues de haber librado tan grandes batallas, tendras <br> 
+                            tiempo de ser bienvenido como hereo. monta en el carrusel</p><br><br>
+                        
+                     <p>Especificaciones:<br><br>
+                        
+                        Edad : TODOS<br>
+                        Estatura : Sin Restricción<br>
+                        Excepcion : NO apto para mujeres en estado de Embarazo.</p> <br><br>
+                        
+                         <p>Tickets de acceso:</p><br><br>
+                         <div class="jmonedas2">
+                                <div><img id="t2"src="img/ticket2.png"><p>Kids <br> Adventure</p></div>
+                                <div><img id="t3"src="img/ticket3.png"><p>thor <br> Travel</p></div>
+                                <div><img id="t4"src="img/ticket4.png"><p> Odin´s <br> Experience </p></div>
+                        
+                        </div> 
+                        <div class="elemento2"><iframe width="90%" height="100%" src="media/carrusel.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        </div>
+                        </div>
+                        <div class="menu">
+        
+                                
+                            <header>
+                                <input type="checkbox" id="menu">
+                                <label for="menu"class="icon-menu"></label>
+                                <nav class="menu-bar">
+                                 <ul>
+                                     <li><a href="index.html"> <span class="icon-home"></span>Inicio</a></li>
+                                     <li><a href="tienda.html"> <span class="icon-grocery-store"></span>Tienda</a></li>
+                                     <li><a href="#"> <span class="icon-child-1">Atracciones<span class="icon-down-open-big"></span> </a>
+                                     <ul>
+                                            <li><a href="javascript:pabrir()">Mjolnir</a></li>
+                                            <li><a href="javascript:pabrir1()">Valkyrja </a></li>
+                                            <li><a href="javascript:pabrir2()">Fenrir</a></li>
+                                            <li><a href="javascript:pabrir3()">Múspellsheimr</a></li>
+                                            <li><a href="javascript:pabrir4()">Bifrost</a></li>
+                                            <li><a href="javascript:pabrir5()">Drakkar</a></li>
+                                            <li><a href="javascript:pabrir6()">Jörmundgander</a></li>
+                                            <li><a href="javascript:pabrir7()">Valhalla</a></li>
+                                            
+                                     </ul>
+                                     </li>
+                                     <li><a href="comidas.html"><span class="icon-food"></span>Comida</a></li>
+                                     <li><a href="tickets.html"><span class="icon-ticket"></span>Tiquetes</a></li>
+                                 </ul>
+                                </nav>
+                            </header> 
+                        
+                        </div>
+        
+                
+                <div class="opacity1"></div>
+                <div class="footer">
+                        <footer>
+                                <div class="contenedor">
+                                        <p class="copy">Odin Park &copy; 2019, Derechos Reservados OdinPark <b>Diseñado por WebColors</b>   <img class="footlogo"src="img/logoem.png" alt="logo empresa" title="WebColor">  </p>
+                                        <p>Dirección: Calle 35 # 5-15 -- Bogotá D.C</p>
+                                        <P>Teléfono: +57(1) 703 59 95</P>
+                                        <div><a href="https://play.google.com/store?hl=es_419" target="blank"><img src="img/android.png" alt="ANDROID" title="Android" width="100" height="30"></a>  <a href="http://www.app-store.es/"target="blank"><img src="img/apple.png" title="IOS" alt="apple" width="100" height="30"></a></div> <br>
+                                        <div class="sociales">
+                                                <a class="icon-facebook-official" href="https://web.facebook.com/odiinpark/?modal=admin_todo_tour"target="blank"></a>
+                                                <a class="icon-twitter-squared" href="https://twitter.com/OdiinPark?s=08" target="blank"></a>
+                                                <a class="icon-instagram" href="https://instagram.com/odiinpark?igshid=335rpn85k9xt" target="blank"></a>
+                                                
+                                            
+                                            </div>
+                                </div>
+                            </footer>
+                </div>
+
+        </div> 
+</body>
+</html>
